@@ -1,10 +1,6 @@
-st = 60;  
-t = st - time;  
-c = timeToTimecode(t);  
-c = c.substring(6,8)
-c
-st = 600;  
-t = st - time;  
-c = timeToTimecode(t);  
-c = c.substring(4,8)
-c
+timeInSeconds = 300;  
+cooldownTime = timeInSeconds - time;  
+
+timecode = timeToTimecode(cooldownTime);  
+timecode = timecode.substring(4,8)
+timecode
