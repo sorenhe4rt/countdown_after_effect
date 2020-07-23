@@ -1,4 +1,4 @@
-timeInSeconds = 300;  
+timeInSeconds = 600;  
 cooldownTime = timeInSeconds - time;  
 
 timecode = timeToTimecode(cooldownTime);  
